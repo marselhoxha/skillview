@@ -4,16 +4,36 @@ import java.util.ArrayList;
 
 import model.FiguraProfessionale;
 
-public interface FigProfessionaleRep {
+public class FigProfessionaleImp implements FigProfessionaleRep {
 
-	public boolean insertFigProf(FiguraProfessionale obj);
+	@Override
+	public boolean insertFigProf(FiguraProfessionale obj) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
-	public ArrayList<FiguraProfessionale> findAllFigProf(FiguraProfessionale obj);
+	@Override
+	public ArrayList<FiguraProfessionale> findAllFigProf(FiguraProfessionale obj) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
-	public FiguraProfessionale findForIdFigProf(FiguraProfessionale obj);
+	@Override
+	public FiguraProfessionale findForIdFigProf(FiguraProfessionale obj) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
-	public boolean updateFigProf(FiguraProfessionale obj);
+	@Override
+	public boolean updateFigProf(FiguraProfessionale obj) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
-	public boolean deleteFigProf(FiguraProfessionale obj);
+	@Override
+	public boolean deleteFigProf(FiguraProfessionale obj) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 
 }
